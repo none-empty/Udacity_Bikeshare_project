@@ -10,6 +10,7 @@ MONTHS= list(map(lambda month:month.lower(),cal.month_name[1:]))  + ['all']
 DAYS=list(map(lambda day:day.lower(),cal.day_name))+['all']
 
 # validate a filter parameter
+# the parameters are : city,month and day
 def validate_input(input_type,valid_group):
     input_data=input(f'enter the {input_type} \n').lower().strip()
     
