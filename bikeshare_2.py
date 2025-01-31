@@ -31,7 +31,7 @@ def get_filters():
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     
     user_city=validate_input('city',list(CITY_DATA.keys()))
-    # get user input for month (all, january, february, ... , june)
+    # get user input for month (all, january, february, March, ... , june)
     user_month=validate_input('month',MONTHS)
     # get user input for day of week (all, monday, tuesday, ... sunday)
     user_day=validate_input('day',DAYS)
