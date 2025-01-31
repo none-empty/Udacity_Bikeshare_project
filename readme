@@ -1,4 +1,11 @@
 
 **Bikeshare_2** is an interactive command-line Python script that processes US bikeshare data based on user input.
+## Installation
+
+1. Clone the following repository:
+   ```bash
+   $ git clone https://github.com/none-empty/Udacity_Bikeshare_project.git
+   ```
+2. Ensure Python is installed on your device
 
 
