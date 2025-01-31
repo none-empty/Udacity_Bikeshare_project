@@ -12,11 +12,11 @@ DAYS=list(map(lambda day:day.lower(),cal.day_name))+['all']
 # validate a filter parameter
 # the parameters are : city,month and day
 def validate_input(input_type,valid_group):
-    input_data=input(f'enter the {input_type} \n').lower().strip()
+    input_buffer=input(f'enter the {input_type} \n').lower().strip()
     
-    while input_data not in valid_group:
-        input_data=input(f'invalid {input_type} , please enter a valid {input_type} \n').lower().strip()
-    return input_data
+    while input_buffer not in valid_group:
+        input_buffer=input(f'invalid {input_type} , please enter a valid {input_type} \n').lower().strip()
+    return input_buffer
 
 def get_filters():
     """
